@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Student",
+  "type": "object",
+  "properties": {
+    "idStudent": { "type": "integer" },
+    "name": { "type": "string" },
+    "lastName": { "type": "string" },
+    "degree": { "type": "integer" },
+    "semester": { "type": "string" },
+    "promedio": { "type": "number" },
+    "email": { "type": "string", "format": "email" },
+    "age": { "type": "integer", "minimum": 0 },
+    "status": { 
+      "type": "string",
+      "enum": ["ACTIVE", "INACTIVE", "SUSPENDED"]
+    }
+  },
+  "required": [
+    "idStudent", "name", "lastName", "degree",
+    "semester", "promedio", "email", "age", "status"
+  ]
+}

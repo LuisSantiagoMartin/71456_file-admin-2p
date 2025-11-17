@@ -1,0 +1,3 @@
+1|Luis|Martin|1|7|8.0|luis@mail.com|21|ACTIVE
+2|David|Gonzalez|2|7|9.0|david@mail.com|21|ACTIVE
+3|Antonio|Velazquez|6|7|9.0|anto@mail.com|22|INACTIVE

@@ -1,0 +1,5 @@
+[
+  {"idStudent":1,"name":"Luis","lastName":"Martin","degree":1,"semester":"7","promedio":8.0,"email":"luis@mail.com","age":21,"status":"ACTIVE"},
+  {"idStudent":2,"name":"David","lastName":"Gonzalez","degree":2,"semester":"7","promedio":9.0,"email":"david@mail.com","age":21,"status":"ACTIVE"},
+  {"idStudent":3,"name":"Antonio","lastName":"Velazquez","degree":6,"semester":"7","promedio":9.0,"email":"anto@mail.com","age":22,"status":"INACTIVE"}
+]
